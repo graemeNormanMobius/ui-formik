@@ -1,0 +1,48 @@
+{
+  "name": "ui-formik",
+  "version": "3.7.2",
+  "description": "UI-Formik package description",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "scripts": {
+    "build": "tsc dist/esm/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graemeNormanMobius/ui-formik.git"
+  },
+  "author": "Graeme Norman",
+  "contributors": [
+    "Tomas Szabo <tomas.szabo@deftomat.com>",
+    "Graeme Norman <graeme.norman@mobiuscarbon.com>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/graemeNormanMobius/ui-formik/issues"
+  },
+  "homepage": "https://github.com/graemeNormanMobius/ui-formik#readme",
+  "typings": "./dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ui",
+    "formik",
+    "react"
+  ],
+  "dependencies": {
+    "@everlutionsk/helpers": "^1.12.0",
+    "@everlutionsk/helpers-yup": "^1.0.1",
+    "@everlutionsk/invisible-characters": "^1.0.1",
+    "@everlutionsk/ui": "^3.0.0",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.4",
+    "formik": "^2.2.9",
+    "react": "^18.1.0",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/yup": "^0.29.3"
+  }
+}
